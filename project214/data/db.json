@@ -1,0 +1,26 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "นายพัทธดนย์",
+      "surname": "อาจหาญ",
+      "studentId": "6630250273",
+      "major": "วิทยาการคอมพิวเตอร์",
+      "school": "อ่างศิลาพิทยาคม",
+      "images": [
+        "public/images/m1.jpeg",
+        "public/images/m2.jpg",
+        "public/images/m3.jpg"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "6033",
+      "code": "01418214",
+      "name": "Practicum in Software Development",
+      "credit": 1,
+      "grade": "."
+    }
+  ]
+}

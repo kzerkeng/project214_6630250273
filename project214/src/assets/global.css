@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #6aad32, #23bbe9);
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+  }
+  .headd{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    font-style: italic;  
+      color: #000000;
+
+  }
+  .footer {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dev-name {
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.2);
+  }

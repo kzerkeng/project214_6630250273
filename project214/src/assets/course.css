@@ -1,0 +1,87 @@
+
+.course-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+
+  .course-card {
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+  }
+  
+
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-add {
+    background: #28a745;
+    color: white;
+  }
+  
+  .btn-edit {
+    background: #ffc107;
+  }
+  
+  .btn-delete {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .btn-save {
+    background: #17a2b8;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background: #6c757d;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .course-form input,
+  .edit-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .edit-container {
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
